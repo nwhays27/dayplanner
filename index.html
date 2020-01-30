@@ -2,81 +2,146 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Day Planner</title>
-
-  <script src="script.js"></script>
+  <title>Todo App</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="assets/style.css" type="text/css" media="screen" charset="utf-8">
 </head>
+<header>WORK DAY PLANNER</header>
+<body>  
+    <div class="nine" style="border-style: solid; border-radius: 30px">
+      <h3>9am</h3>
+            
+    <p>
+      <label for="new-task">Add Item</label><input id="new-task" type="text"><button id="add-button">Add</button>
+    </p>
+
+  
+    <ul id="incomplete-tasks">
+      <li><input type="checkbox" class="checkbox"><label>Pay Bills</label><input type="text" class='edit-text'><button
+          class="edit-button">Edit</button><button class="delete-button">Delete</button></li>
+    </ul>
+
+    </div>
+  </div>
+  <div class="ten" style="border-style: solid; border-radius: 30px">
+    <h3>10am</h3>
+          
+  <p>
+    <label for="new-task">Add Item</label><input id="new-task" type="text"><button id="add-button">Add</button>
+  </p>
 
 
-<body>
-  <table cellpadding="0" cellspacing="0" width="100%" style="border: 1px;" rules="none">
-    <tbody>
-      <tr>
-          <th>
-            <h1>
-              WORK DAY PLANNER
-            </h1>    
-          </th>
-      </tr>
-      <tr>
-        <td style="border-left: thin solid; padding-top: 30px; padding-bottom: 30px; border-top: thin solid; border-bottom: thin solid; border-right: thin solid; border-radius: 25px; padding-right: 900px;">
-          9am
-        </td>
-      </tr>
+  <ul id="incomplete-tasks">
+    <li class="editMode"><input type="checkbox" class="checkbox"><label>Go Shopping</label><input type="text"
+        class='edit-text' value="Go Shopping"><button class="edit-button">Edit</button><button
+        class="delete-button">Delete</button></li>
 
-      <tr>
-        <td style="border-left: thin solid; padding-top: 30px; padding-bottom: 30px; border-top: thin solid; border-bottom: thin solid; border-right: thin solid; border-radius: 25px; padding-right: 900px;">
-          10am
-        </td>
-      </tr>
+  </ul>
 
-      <tr>
-        <td style="border-left: thin solid; padding-top: 30px; padding-bottom: 30px; border-top: thin solid; border-bottom: thin solid; border-right: thin solid; border-radius: 25px; padding-right: 900px;">
-          11am
-        </td>
-      </tr>
+  </div>
+  <div class="eleven" style="border-style: solid; border-radius: 30px">
+    <h3>11am</h3>
+          
+  <p>
+    <label for="new-task">Add Item</label><input id="new-task" type="text"><button id="add-button">Add</button>
+  </p>
 
-      <tr>
-        <td style="border-left: thin solid; padding-top: 30px; padding-bottom: 30px; border-top: thin solid; border-bottom: thin solid; border-right: thin solid; border-radius: 25px; padding-right: 900px;">
-          12pm
-        </td>
-      </tr>
 
-      <tr>
-        <td style="border-left: thin solid; padding-top: 30px; padding-bottom: 30px; border-top: thin solid; border-bottom: thin solid; border-right: thin solid; border-radius: 25px; padding-right: 900px;">
-          1pm
-        </td>
-      </tr>
+  <ul id="incomplete-tasks">
+    <li><input type="checkbox" class="checkbox"><label>Pick up coffee</label><input type="text" class='edit-text'><button
+        class="edit-button">Edit</button><button class="delete-button">Delete</button></li>
+  </ul>
 
-      <tr>
-        <td style="border-left: thin solid; padding-top: 30px; padding-bottom: 30px; border-top: thin solid; border-bottom: thin solid; border-right: thin solid; border-radius: 25px; padding-right: 900px;">
-          2pm
-        </td>
-      </tr>
+  </div>
+  <div class="twelve" style="border-style: solid; border-radius: 30px">
+    <h3>Noon</h3>
+          
+  <p>
+    <label for="new-task">Add Item</label><input id="new-task" type="text"><button id="add-button">Add</button>
+  </p>
 
-      <tr>
-        <td style="border-left: thin solid; padding-top: 30px; padding-bottom: 30px; border-top: thin solid; border-bottom: thin solid; border-right: thin solid; border-radius: 25px; padding-right: 900px;">
-          3pm
-        </td>
-      </tr>
 
-      <tr>
-        <td style="border-left: thin solid; padding-top: 30px; padding-bottom: 30px; border-top: thin solid; border-bottom: thin solid; border-right: thin solid; border-radius: 25px; padding-right: 900px;">
-          4pm
-        </td>
-      </tr>
+  <ul id="incomplete-tasks">
+    <li><input type="checkbox" class="checkbox"><label>Send out new memo to the co-workers</label><input type="text" class='edit-text'><button
+        class="edit-button">Edit</button><button class="delete-button">Delete</button></li>
 
-      <tr>
-        <td style="border-left: thin solid; padding-top: 30px; padding-bottom: 30px; border-top: thin solid; border-bottom: thin solid; border-right: thin solid; border-radius: 25px; padding-right: 900px;">
-          5pm
-        </td>
-      </tr>
-    
-    </tbody>
-  </table>
+  </ul>
+
+  </div>
+  <div class="one" style="border-style: solid; border-radius: 30px">
+    <h3>1pm</h3>
+          
+  <p>
+    <label for="new-task">Add Item</label><input id="new-task" type="text"><button id="add-button">Add</button>
+  </p>
+
+
+  <ul id="incomplete-tasks">
+    <li><input type="checkbox" class="checkbox"><label>Meeting in the conference room</label><input type="text" class='edit-text'><button
+        class="edit-button">Edit</button><button class="delete-button">Delete</button></li>
+  </ul>
+
+  </div>
+  <div class="two" style="border-style: solid; border-radius: 30px">
+    <h3>2pm</h3>
+          
+  <p>
+    <label for="new-task">Add Item</label><input id="new-task" type="text"><button id="add-button">Add</button>
+  </p>
+
+
+  <ul id="incomplete-tasks">
+    <li><input type="checkbox" class="checkbox"><label>Meeting with client</label><input type="text" class='edit-text'><button
+        class="edit-button">Edit</button><button class="delete-button">Delete</button></li>
+  </ul>
+
+  </div>
+  <div class="three" style="border-style: solid; border-radius: 30px">
+    <h3>3pm</h3>
+          
+  <p>
+    <label for="new-task">Add Item</label><input id="new-task" type="text"><button id="add-button">Add</button>
+  </p>
+
+
+  <ul id="incomplete-tasks">
+    <li><input type="checkbox" class="checkbox"><label>Call my wife</label><input type="text" class='edit-text'><button
+        class="edit-button">Edit</button><button class="delete-button">Delete</button></li>
+  </ul>
+
+  </div>
+  <div class="four" style="border-style: solid; border-radius: 30px">
+    <h3>4pm</h3>
+          
+  <p>
+    <label for="new-task">Add Item</label><input id="new-task" type="text"><button id="add-button">Add</button>
+  </p>
+
+
+  <ul id="incomplete-tasks">
+    <li><input type="checkbox" class="checkbox"><label>Meditate because of stress</label><input type="text" class='edit-text'><button
+        class="edit-button">Edit</button><button class="delete-button">Delete</button></li>
+  </ul>
+
+  </div>
+  <div class="five" style="border-style: solid; border-radius: 30px">
+    <h3>5pm</h3>
+          
+  <p>
+    <label for="new-task">Add Item</label><input id="new-task" type="text"><button id="add-button">Add</button>
+  </p>
+
+
+  <ul id="incomplete-tasks">
+    <li><input type="checkbox" class="checkbox"><label>GO HOME!</label><input type="text" class='edit-text'><button
+        class="edit-button">Edit</button><button class="delete-button">Delete</button></li>
+  </ul>
+
+  </div>
+</div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
